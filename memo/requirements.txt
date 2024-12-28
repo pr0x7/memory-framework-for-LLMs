@@ -1,5 +1,6 @@
 python-dotenv
 langchain-openai
+huggingfacehub
 langchain-community
 supabase
 fastapi
