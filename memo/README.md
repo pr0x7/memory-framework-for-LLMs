@@ -68,9 +68,6 @@ streamlit run app.py
 
 You can now interact with the assistant by entering your messages in the Streamlit app. The assistant will generate responses based on the stored memories and the current conversation context.
 
-## API Documentation
-
-For detailed information about the available API routes and their usage, please refer to the [documentation](reminisc/api/README.md).
 
 ## Configuration
 
@@ -91,21 +88,3 @@ Priority areas for contributions:
 - User-Controlled Memory: Allow users to instruct the assistant to remember or forget information and manage memories.
 - Memory Consolidation and Updating: Implement mechanisms for consolidating and updating memories to improve response relevance and coherence.
 
-## Citation
-
-If you utilize this repository, please consider citing it with:
-
-```
-@misc{reminisc,
-   author = {Advait Paliwal},
-   title = {Reminisc: Memory for LLMs},
-   year = {2024},
-   publisher = {GitHub},
-   journal = {GitHub repository},
-   howpublished = {\url{https://github.com/advaitpaliwal/reminisc}},
-}
-```
-
-## License
-
-This project is licensed under the [Apache License](LICENSE).
