@@ -1,0 +1,7 @@
+python-dotenv
+langchain-openai
+langchain-community
+supabase
+fastapi
+pydantic
+openai
