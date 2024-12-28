@@ -1,5 +1,5 @@
 # Memory framework for LLMs : Reminisc
-# 
+
 
 Reminisc is an OpenAI inspired open-source memory framework for LLMs.
 
@@ -38,19 +38,6 @@ OPENAI_API_KEY=
 SUPABASE_URL=
 SUPABASE_KEY=
 ```
-
-## Supabase Setup
-
-1. Initialize Supabase: Ensure you have the Supabase CLI installed. If not, install it by following the instructions [here](https://supabase.io/docs/guides/cli).
-
-2. Apply database migrations: Reset the Supabase database and apply the migrations to set up the required tables and functions:
-
-```bash
-supabase db reset
-```
-
-This will execute the SQL files in the `supabase/migrations` directory, setting up the necessary database schema.
-
 ## Usage
 
 To start Reminisc:
@@ -77,14 +64,3 @@ You can modify the configuration settings in the `reminisc/config/config.py` fil
 - `CLASSIFIER_MODEL_NAME`: The OpenAI model used for classifying user input (default: "gpt-3.5-turbo").
 - `MEMORY_CREATOR_MODEL_NAME`: The OpenAI model used for creating memories from user input (default: "gpt-3.5-turbo").
 
-## Contributing
-
-We welcome contributions to improve Reminisc and expand its capabilities. Please open an issue for suggestions or bug reports, or submit a pull request for code contributions.
-
-Priority areas for contributions:
-
-- Packaging: Convert this framework into a distributable Python package.
-- LLM Integrations: Integrate additional language models for generating responses.
-- Vector Database Support: Expand support for various vector databases for memory storage and retrieval.
-- User-Controlled Memory: Allow users to instruct the assistant to remember or forget information and manage memories.
-- Memory Consolidation and Updating: Implement mechanisms for consolidating and updating memories to improve response relevance and coherence.
