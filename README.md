@@ -1,7 +1,6 @@
-# Memory framework for LLMs : Reminisc
+# Memory framework for LLMs 
 
-
-Reminisc is an OpenAI inspired open-source memory framework for LLMs.
+This is an OpenAI inspired open-source memory framework for LLMs.
 
 
 
